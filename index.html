@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Boy ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- FIRST PAGE -->
+    <div class="page" id="main-page">
+
+        <div class="sticker sticker1">🎀</div>
+        <div class="sticker sticker2">🌷</div>
+        <div class="sticker sticker3">🧸</div>
+        <div class="sticker sticker4">💌</div>
+
+        <div class="card">
+
+            <div class="heart">♡</div>
+
+            <p class="little">
+                A LITTLE SURPRISE FOR YOU
+            </p>
+
+            <h1>
+                Hey, my love!
+            </h1>
+
+            <p class="message">
+                I made something<br>
+                really special for you...
+            </p>
+
+            <p class="question">
+                Wanna see it? 👀
+            </p>
+
+            <div class="buttons">
+
+                <button class="yes-btn" onclick="showKiss()">
+                    YES ♡
+                </button>
+
+                <button class="no-btn" onclick="sayNo()">
+                    NO
+                </button>
+
+            </div>
+
+            <p class="footer">
+                made with lots of love ♡
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- KISS SCREEN -->
+    <div id="kiss-screen" class="kiss-screen">
+
+        <img src="images/kissi.jpg" alt="kiss">
+
+        <h2>
+            I love you bby 💋❤️
+        </h2>
+
+        <button class="next-btn" onclick="showExcited()">
+            Next → 💗
+        </button>
+
+    </div>
+
+
+    <!-- EXCITED SCREEN -->
+    <div id="excited-screen" class="excited-screen">
+
+        <div class="card">
+
+            <div class="heart">💗</div>
+
+            <p class="little">
+                ONE MORE THING...
+            </p>
+
+            <h1>
+                Are you really excited, bby? 🥺
+            </h1>
+
+            <p class="message">
+                I made all of this<br>
+                just for you ♡
+            </p>
+
+            <div class="buttons">
+
+                <button class="yes-btn" onclick="showGifts()">
+                    YESSS 💕
+                </button>
+
+                <button class="no-btn" onclick="sayMaybe()">
+                    Maybe 👀
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- GIFTS SCREEN -->
+    <div id="gifts-screen" class="gifts-screen">
+
+        <div class="gift-card">
+
+            <p class="little">A LITTLE SOMETHING FOR YOU ♡</p>
+
+            <h1>Three little surprises 🎁</h1>
+
+            <p class="gift-message">
+                Pick one by one, bby...<br>
+                I made each one just for you 💗
+            </p>
+
+            <div class="gifts">
+
+                <div class="gift-box" onclick="openGift(1)">
+                    <div class="gift-emoji">🎁</div>
+                    <h2>Present for you, bby</h2>
+                    <p>something special ♡</p>
+                </div>
+
+                <div class="gift-box" onclick="openGift(2)">
+                    <div class="gift-emoji">💌</div>
+                    <h2>From my heart</h2>
+                    <p>something I want to tell you ♡</p>
+                </div>
+
+                <div class="gift-box" onclick="openGift(3)">
+                    <div class="gift-emoji">📸</div>
+                    <h2>Memories, bby</h2>
+                    <p>our little moments ♡</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- GIFT 1 -->
+<div id="gift1-screen" class="gift1-screen">
+
+    <div class="gift1-card">
+
+        <p class="little">A LITTLE PRESENT FOR YOU ♡</p>
+
+        <h1>Present for you, bby 🌷</h1>
+
+        <img src="images/bouquet.jpg" alt="A bouquet for you">
+
+        <p class="gift1-message">
+            for the boy who makes my heart bloom a little more every day.....
+        </p>
+
+        <p class="gift1-love">
+            This one's just for you, bby ♡
+        </p>
+
+        <button class="next-btn" onclick="backToGifts()">
+            Back to gifts → 🎁
+        </button>
+
+    </div>
+
+</div>
+<!-- GIFT 2 -->
+<div id="gift2-screen" class="gift2-screen">
+
+    <div class="gift2-card">
+
+        <p class="little">FROM MY HEART ♡</p>
+
+        <h1>A letter for you, bby 💌</h1>
+
+        <div class="letter">
+
+            <p><strong>Mohit, this letter is for you 🫶🏻</strong></p>
+
+            <p>
+                First of all, Happy Boyfriend Day bbyyy 🥹❤️
+            </p>
+
+            <p>
+                I love you sooo much yaar, like genuinely.
+                Mai bohot pyaar karti hu tumse, sach mai…
+                idk tumhe kabhi-kabhi kyu nahi lagta 😭
+            </p>
+
+            <p>
+                Tumhari hugs, kisses, cuddles… sab miss karti hu yaar 🥹🫶🏻
+                And honestly, tumhare little little efforts dekh ke kon
+                pyaar nahi karega 😭❤️
+            </p>
+
+            <p>
+                Bas ek dar sa rehta hai 🤧<br>
+                Tum bhi ek din mujhe akele chhod ke toh nahi jaoge na? 🥺
+            </p>
+
+            <p>
+                Mujhe tumhare saath bohot saari memories banani hain.
+                Tumhare saath walk karna hai, us time tum thode jyada
+                caring ho jaate ho na 😚.
+                Tumhare saath hasna, ladna, fir maan jaana,
+                random si baatein karna, aur bas tumhare paas rehna. 🥹❤️
+            </p>
+
+            <p>
+                Aur haan, kabhi kabhi mai overthink karungi, irritate karungi,
+                thodi pagal bhi banungi 😭 but please bas mera haath pakad ke rehna.
+                Mujhe tumse perfect kuch nahi chahiye, bas tum chahiye…
+                waise hi jaise tum ho. 🫶🏻
+            </p>
+
+            <p>
+                <strong>Happy Boyfriend Day, Mohit. ❤️</strong>
+            </p>
+
+            <p>
+                And thank you for being my person. 🥹<br>
+                I love youuu, aur haan… mujhe chhod ke kahin nahi jaana, okay? 😭❤️‍🩹
+            </p>
+
+        </div>
+
+        <button class="next-btn" onclick="backToGifts()">
+            Back to gifts → 🎁
+        </button>
+
+    </div>
+
+</div>
+
+       <!-- GIFT 3 -->
+<div id="gift3-screen" class="gift3-screen">
+
+    <div class="gift3-card">
+
+        <p class="little">OUR LITTLE MEMORIES ♡</p>
+
+        <h1>Memories, bby 📸</h1>
+
+        <p class="memory-intro">
+            A few little moments I want to keep forever... 🥹❤️
+        </p>
+
+        <div class="polaroid-container">
+
+            <div class="polaroid">
+                <img src="images/memory1.jpeg" alt="Our memory">
+                <p>One of my favourite moments with you 🥹❤️</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/memory2.jpeg" alt="Our memory">
+                <p>My pookiee coded 🫶🏻</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/memory3.jpeg" alt="Our memory">
+                <p>suddenly kisses...cutieee 💗</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/memory4.jpeg" alt="Our memory">
+                <p>The way you kiss my forehead randomly......i literally melt 🥹</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/memory5.jpeg" alt="Our memory">
+                <p>first drink w you....core memory fr 🫶🏻</p>
+            </div>
+
+            <div class="polaroid">
+                <img src="images/memory6.jpeg" alt="Our memory">
+                <p>lil us moment ❤️</p>
+            </div>
+
+        </div>
+
+        <button class="next-btn" onclick="showScratch()">
+            next → ❤️
+        </button>
+
+    </div>
+
+</div>
+    <script src="script.js"></script>
+<!-- SCRATCH REVEAL -->
+<div id="scratch-screen" class="scratch-screen">
+
+    <div class="scratch-card">
+
+        <p class="little">ONE LAST LITTLE SURPRISE ♡</p>
+
+        <h1>Scratch here, bby 🥹</h1>
+
+        <p class="scratch-message">
+            Thoda sa scratch karo... 👀❤️
+        </p>
+
+        <div class="scratch-area">
+
+            <div class="scratch-reveal">
+                <h2>Happy Boyfriend Day kuchuuupuchuu<br>bbyyy ❤️</h2>
+                <p>I love you so much 🫶🏻</p>
+            </div>
+
+            <canvas id="scratchCanvas"></canvas>
+
+        </div>
+
+        <button class="next-btn" onclick="showFinalForm()">
+            Next → 💌
+        </button>
+
+    </div>
+
+</div>
+<!-- FINAL RESPONSE -->
+<div id="final-screen" class="final-screen">
+
+    <div class="final-card">
+
+        <p class="little">JUST FOR YOU ♡</p>
+
+        <h1>So... how was it, bby? 🥹❤️</h1>
+
+        <p class="final-message">
+            I wanna know what you felt while seeing all this. 🫶🏻
+        </p>
+
+        <textarea
+            id="boyfriendMessage"
+            placeholder="Tell me everything... 👀❤️"
+        ></textarea>
+
+        <p class="final-question">
+            Did you like your little surprise? 🥺
+        </p>
+
+        <div class="final-buttons">
+
+            <button class="yes-btn" onclick="submitFinal()">
+                Loved it 🥹❤️
+            </button>
+
+            <button class="no-btn" onclick="submitFinal()">
+                It was cute 🫶🏻
+            </button>
+
+        </div>
+
+        <p id="final-thankyou" class="final-thankyou">
+            Thank you for being my person. ❤️
+        </p>
+
+    </div>
+
+</div>
+</body>
+
+</html>
